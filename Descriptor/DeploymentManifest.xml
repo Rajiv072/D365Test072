@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DeploymentPackage>
+  <Name>HelloWorldDeployment</Name>
+  <DisplayName>Hello World Deployment Package</DisplayName>
+  <Description>Deployment package for Hello World sample application</Description>
+  <Version>1.0.0.0</Version>
+  <Created>2026-05-03</Created>
+  <Modified>2026-05-03</Modified>
+  <Models>
+    <Model>
+      <Name>HelloWorldModel</Name>
+      <DisplayName>Hello World Model</DisplayName>
+    </Model>
+  </Models>
+  <Contents>
+    <ModelFiles>
+      <ModelFile Path="Metadata\HelloWorldModel\" />
+    </ModelFiles>
+  </Contents>
+  <InstallationInstructions>
+    <Step>Import the model using the model management tools in Dynamics 365</Step>
+    <Step>Compile the imported model</Step>
+    <Step>Synchronize the database</Step>
+    <Step>Run the HelloWorld class to test the deployment</Step>
+  </InstallationInstructions>
+</DeploymentPackage>

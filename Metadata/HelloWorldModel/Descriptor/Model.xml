@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelManifest>
+  <Name>HelloWorldModel</Name>
+  <DisplayName>Hello World Model</DisplayName>
+  <Description>Sample Hello World model for Dynamics 365 Finance and Operations</Description>
+  <VersionBuild>1</VersionBuild>
+  <VersionMajor>1</VersionMajor>
+  <VersionMinor>0</VersionMinor>
+  <VersionRevision>0</VersionRevision>
+  <ModuleToPackageMapping />
+</ModelManifest>

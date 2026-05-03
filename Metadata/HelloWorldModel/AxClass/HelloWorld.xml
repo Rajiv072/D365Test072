@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AxClass version="1.0">
+  <Name>HelloWorld</Name>
+  <SourceCode>
+    <Declaration><![CDATA[public class HelloWorld
+{
+}]]></Declaration>
+    <Methods>
+      <Method>
+        <Name>main</Name>
+        <Source><![CDATA[public static void main(Args _args)
+{
+    info("Hello World from Dynamics 365 Finance and Operations");
+}]]></Source>
+      </Method>
+    </Methods>
+  </SourceCode>
+</AxClass>
