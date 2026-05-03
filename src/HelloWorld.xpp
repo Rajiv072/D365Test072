@@ -1,0 +1,7 @@
+class HelloWorld
+{
+    public static void main(Args _args)
+    {
+        info("Hello World from Dynamics 365 Finance and Operations");
+    }
+}
